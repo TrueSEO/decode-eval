@@ -14,16 +14,16 @@ Decode php encoded with eval statements.
 
 ##Use
 >Decode a single file  It's best to provide the "Full path" to the file.
-	php replace2.php <FILENAME>.PHP  
+	php replace.php <FILENAME>.PHP  
 	
 >####Linux/OSX
 >Decode All Files inside Folder Recursively
 
->>_$ find . -type f -name "*.php" -exec php replace2.php \{} \;_
+>>_$ find . -type f -name "*.php" -exec php replace.php \{} \;_
 	
 >####Windows/DOS (Untested) 
 >Decode All Files inside Folder Recursively 
->>_for /r %f in (*.php) do php replace2.php %f_
+>>_for /r %f in (*.php) do php replace.php %f_
 
 ##TODO 
 >#####Usabile output without further editing

@@ -11,15 +11,15 @@
 // Use
 /*
 	Decode a single file  It's best to provide the "Full path" to the file.
-	php replace2.php <FILENAME>.PHP  
+	php replace.php <FILENAME>.PHP  
 	
 	Linux/OSX
 	Decode All Files inside Folder Recursively
-	$ find . -type f -name "*.php" -exec php replace2.php \{} \;  
+	$ find . -type f -name "*.php" -exec php replace.php \{} \;  
 	
 	Windows/DOS (Untested) 
 	Decode All Files inside Folder Recursively 
-	for /r %f in (*.php) do php replace2.php %f
+	for /r %f in (*.php) do php replace.php %f
 */
 
 // TODO 
